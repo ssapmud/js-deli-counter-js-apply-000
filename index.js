@@ -11,7 +11,7 @@ function takeANumber(katzDeliLine, name) {
   } if (katzDeliLine.length === 0) {
       return "There is nobody waiting to be served!";
   } else
-      return (`Currently serving ${katzDeliLine.shift()}.`);
+      return `Currently serving ${katzDeliLine.shift()}.`;
 }
 
 function currentLine(katzDeli) {
@@ -22,5 +22,5 @@ function currentLine(katzDeli) {
   if (katzDeli.length === 0) {
     return "The line is currently empty.";
   } else
-  return(`The line is currently:` + line);
+  return `The line is currently:` + line;
 }
